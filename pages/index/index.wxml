@@ -1,0 +1,47 @@
+<!--pages/index/index.wxml-->
+<view class="search">
+  <input type="text" class="search_input" placeholder="搜索"/>
+</view>
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper circular indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <image class="s_img" src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+</view>
+
+<view class="box_img">
+  <view class="img1">
+    <image class="icon" src="../../icon/地图.png"></image>
+  </view>
+  <view class="img2">
+    <image class="icon" src="../../icon/头盔.png"></image>
+  </view>
+  <view class="img3">
+    <image class="icon" src="../../icon/011剑.png"></image>
+  </view>
+  <view class="img4">
+    <image class="icon" src="../../icon/任务.png"></image>
+  </view>
+</view>
+
+<view class="box_text">
+  <text class="text1">大地图</text>
+  <text class="text2">圣遗物</text>
+  <text class="text3">深渊配队</text>
+  <text class="text4">每日任务</text>
+</view>
+
+<view class="box_hand">
+  <view class="hand">新版本来袭</view>
+  <image class="hand_img1" src="../../img/01.jpeg"></image>
+  <image class="hand_img2" src="../../img/02.jpeg"></image >
+  <image  class="hand_img3" src="../../img/03.jpeg"></image >
+  <image  class="hand_img4" src="../../img/04.jpeg"></image >
+  <image  class="hand_img5" src="../../img/05.jpeg"></image >
+</view>

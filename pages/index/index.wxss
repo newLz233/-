@@ -1,0 +1,89 @@
+/* pages/index/index.wxss */
+.s_img{
+  width: 750rpx;
+} 
+.search{
+  width: 750rpx;
+  height: 100rpx;
+  background-color: #be37ee;
+}
+.search_input{
+  width: 720rpx;
+  height: 75rpx;
+  background-color: #FFF;
+  margin-left: 15rpx;
+  border-radius: 15rpx;
+  text-align: center;
+  font-size: 34rpx;
+}
+.box_img{
+  width: 750rpx;
+  height: 150rpx;
+  /* background-color: plum; */
+}
+.img1,.img2,.img3,.img4{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  float: left;
+  margin-left: 50rpx;
+  margin-top: 15rpx;
+}
+.img1{
+  background-color: #67daf2;
+}
+.img2{
+  background-color: #8acc80;
+}
+.img3{
+  background-color: #d488e9;
+}
+.img4{
+  background-color: #f794a9;
+}
+.icon{
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.text1{
+  font-size: 34rpx;
+  margin-left: 55rpx;
+}
+.text2{
+  font-size: 34rpx;
+  margin-left: 75rpx;
+}
+.text3{
+  font-size: 34rpx;
+  margin-left: 60rpx;
+}
+.text4{
+  font-size: 34rpx;
+  margin-left: 40rpx;
+}
+.box_hand{
+  width: 720rpx;
+  height: 600rpx;
+  /* background-color: skyblue; */
+  margin-left: 15rpx;
+}
+.hand{
+  font-size: 44rpx;
+  color: #d28899;
+  font-weight: bold;
+}
+.hand_img1,.hand_img2,.hand_img3,.hand_img4,.hand_img5{
+  width: 230rpx;
+  float: left;
+  margin-left: 10rpx;
+}
+.hand_img1{
+  height: 510rpx;
+}
+.hand_img2,.hand_img3,.hand_img4,.hand_img5{
+  height: 250rpx;
+  background-color: #8acc80;
+  margin-bottom: 10rpx;
+}

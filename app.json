@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/buy/buy",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#be37ee",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/主页.png",
+      "selectedIconPath": "icon/主页选中.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "分类",
+      "iconPath": "icon/菜单.png",
+      "selectedIconPath": "icon/菜单选中.png"
+    },
+    {
+      "pagePath": "pages/buy/buy",
+      "text": "购物车",
+      "iconPath": "icon/购物车空.png",
+      "selectedIconPath": "icon/购物车满.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/user选中.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
